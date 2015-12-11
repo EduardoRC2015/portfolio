@@ -13,6 +13,7 @@
 
 	<!-- Bootstrap - Optional theme CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style.css">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,8 +25,8 @@
 
 <body data-spy="scroll" data-target=".navbar-default">
 
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container-fluid">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
 
@@ -41,7 +42,6 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="#home">Home</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
 					<li><a href="#about">About Me</a></li>
 					<li><a href="#Background">Background &amp; Education</a></li>
@@ -51,48 +51,73 @@
 
 
 			</div>
-			
+
 			<!-- /.navbar-collapse -->
 		</div>
 		<!-- /.container-fluid -->
 	</nav>
 
+	<section id="portfolio" class="container">
+		<h2>Portfolio  <i class="fa fa-github"></i></h2>
+		<div class="row">
+			<div class="col-xs-12 col-md-4">
+				<h3><a href="http://eduardorc2015.github.io/ptCaseStudy">Pacific Trails</a></h3>
+			</div>
+			<div class="col-xs-12 col-md-8">
+				<img src="Images/pacifictrails.png" class="img-responsive">
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<h3><a href="http://eduardorc2015.github.io/veggies-bootstrap">Ms. B's Veggies </a></h3>
+			</div>
+			<div class="col-xs-12 col-md-8"><img src="Images/msveggies.png" class="img-responsive" alt="Ms. B's Veggies Website"></div>
 
-	<section id="home">
-		<h2>Home</h2>
+		</div>
 
 	</section>
 
 
-	<section id="portfolio">
-		<h3>Portfolio</h3>
+	<section id="about" class="container">
+		<h2>About Me</h2>
+		<div class="row">
 
+			<div class="col-xs-12 col-md-6">
+				<img src="images/img_0005.jpg" class="img-responsive" alt="ME"></div>
+			<div class="col-xs-12 col-md-6">
+				<ul>
+					<li>Name: Eduardo Rosales Cisneros</li>
+					<li>Email: Eduardo_Rosales_Cisneros123223@Live.Com</li>
+					<li>Address: Mound, Mn</li>
+				</ul>
+			</div>
+		</div>
 	</section>
 
 
-	<section id="about">
-		<h4>About Me</h4>
-		<li>name: Eduardo Rosales Cisneros</li>
-		<li>Email: Eduardo_Rosales_Cisneros123223@Live.Com</li>
-		<li>Address: Mound, Mn</li>
+	<section id="Background" class="container">
+		<h2>Background and Education</h2>
+		<ul>
+			<li>College: Hennepin Technical Community College</li>
+			<li>Classes: HTML5</li>
+		</ul>
 	</section>
-
-
-	<section id="Background">
-		<h5>Background and Education</h5>
-		<li>College: Hennepin Technical Community College</li>
-		<li>Classes: HTML5</li>
+	<section id="Skills" class="container">
+		<h2>Skills</h2>
+		<ul>
+			<li>HTML5</li>
+		</ul>
 	</section>
-	<footer>
-	&copy;Copyright 2015</footer>
-
+	<footer class="footer">
+		<div class="container">
+			<p class="text-muted">Copyright &copy; 2015 Eduardo Rosales Cisneros</p>
+		</div>
+	</footer>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 	<!-- Bootstrap JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	
+
 </body>
 
 </html>
