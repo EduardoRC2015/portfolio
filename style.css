@@ -8,7 +8,6 @@
 h1 {
 	font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
 	font-size: 24px;
-	background-image: url (IMG_0005.jpg);
 }
 
 h2 {
@@ -33,10 +32,4 @@ section {
 #name h1 {
 	display: block;
 	clear: both;
-}
-
-"navbar-brand" @media only screen and (max-width: 480px) {
-	#name h1 {
-		font-size: 230%;
-	}
 }
